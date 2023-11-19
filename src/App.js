@@ -1,7 +1,6 @@
 import React, { useRef, useEffect, useState } from 'react';
 import './App.css';
-import { gsap } from 'gsap'
-import { easeOut } from 'framer-motion';
+import { gsap, Power1 } from 'gsap'
 import food1 from './food11.svg'
 import food2 from './food22.svg'
 import food3 from './food33.svg'
@@ -35,62 +34,62 @@ function App() {
         }, '+=2')
             .to(wh1, {
                 rotate: 10,
-                ease: easeOut,
+                ease: Power1.easeOut,
                 duration: 0.1
             }, '+=0.6')
             .to(wh1, {
                 rotate: -10,
-                ease: easeOut,
+                ease: Power1.easeOut,
                 duration: 0.1
             })
             .to(wh1, {
                 rotate: 0,
-                ease: easeOut,
+                ease: Power1.easeOut,
                 duration: 0.1
             })
             .to(wh1, {
                 rotate: 10,
-                ease: easeOut,
+                ease: Power1.easeOut,
                 duration: 0.1
             })
             .to(wh1, {
                 rotate: -10,
-                ease: easeOut,
+                ease: Power1.easeOut,
                 duration: 0.1
             })
             .to(wh1, {
                 rotate: 0,
-                ease: easeOut,
+                ease: Power1.easeOut,
                 duration: 0.1
             })
             .to(wh1, {
                 rotate: 10,
-                ease: easeOut,
+                ease: Power1.easeOut,
                 duration: 0.1
             })
             .to(wh1, {
                 rotate: -10,
-                ease: easeOut,
+                ease: Power1.easeOut,
                 duration: 0.1
             })
             .to(wh1, {
                 rotate: 0,
-                ease: easeOut,
+                ease: Power1.easeOut,
                 duration: 0.1
             })
             .to(wh1, {
                 rotate: 10,
-                ease: easeOut,
+                ease: Power1.easeOut,
                 duration: 0.1
             })
             .to(wh1, {
                 rotate: -10,
-                ease: easeOut,
+                ease: Power1.easeOut,
                 duration: 0.1
             })
             .to(wh1, {
                 rotate: 0,
-                ease: easeOut,
+                ease: Power1.easeOut,
                 duration: 0.1
             }).to(wof, {
                 duration: 1,
